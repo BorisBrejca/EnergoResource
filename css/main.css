@@ -1295,7 +1295,7 @@
 .faq .container .answwerQuestions {
   margin-top: 40px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-around;
 }
 .faq .container .answwerQuestions .answer {

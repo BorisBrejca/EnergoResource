@@ -1,0 +1,260 @@
+.aboutMain .container .mt54px {
+  margin-top: 84px;
+}
+.aboutMain .container h1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+.aboutMain .container .about {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.aboutMain .container .about .flextext {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+}
+.aboutMain .container .about .flextext h1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  max-width: 376px;
+}
+.aboutMain .container .about .flextext h1:first-child {
+  max-width: 560px;
+}
+.aboutMain .container .about .flexIMGs {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.aboutMain .container .about .flexIMGs .img {
+  position: relative;
+}
+.aboutMain .container .about .flexIMGs .img img {
+  border-radius: 25px;
+  position: relative;
+  max-width: 461px;
+  max-height: 325px;
+  filter: drop-shadow(0px 0px 10px #6ADAFF);
+}
+.aboutMain .container .about .flexIMGs .img .absoluteImg {
+  position: absolute;
+  right: 265px;
+  top: 203px;
+}
+.aboutMain .container .futuresProject {
+  margin-top: 70px;
+  display: flex;
+  margin: 70px 20px 0;
+  gap: 80px;
+}
+.aboutMain .container .futuresProject .futuresBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 30px;
+  box-shadow: 0px 0px 8px #DCD535;
+  border-radius: 10px;
+}
+.aboutMain .container .futuresProject .futuresBlock h1 {
+  font-weight: 700;
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  text-align: center;
+}
+.aboutMain .container .futuresProject .futuresBlock h2 {
+  font-weight: 400;
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  max-width: 195px;
+  text-align: center;
+}
+.aboutMain .container .futuresProject .futuresBlock h2 b {
+  color: #000000;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutMain .container {
+    padding: 0 20px;
+  }
+  .aboutMain .container .futuresProject {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 25px;
+  }
+  .aboutMain .container .futuresProject .futuresBlock {
+    max-width: 225px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .aboutMain .container .mt54px {
+    margin-top: 25px;
+  }
+  .aboutMain .container .about .flextext {
+    gap: 25px;
+  }
+  .aboutMain .container .about .flexIMGs {
+    gap: 50px;
+  }
+  .aboutMain .container .about .flexIMGs .img img {
+    max-width: 400px;
+  }
+  .aboutMain .container .about .flexIMGs .img .absoluteImg {
+    right: 210px;
+    top: 170px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .aboutMain .container .mt54px {
+    font-size: 15px;
+    letter-spacing: 0.02em;
+  }
+  .aboutMain .container .about .flextext h1 {
+    font-size: 15px;
+    letter-spacing: 0.02em;
+  }
+  .aboutMain .container .about .flexIMGs {
+    gap: 70px;
+  }
+  .aboutMain .container .about .flexIMGs .img img {
+    max-width: 300px;
+  }
+  .aboutMain .container .futuresProject .futuresBlock {
+    padding: 10px 10px;
+  }
+}
+@media screen and (max-width: 930px) {
+  .aboutMain .container .about {
+    gap: 15px;
+  }
+  .aboutMain .container .about .flextext h1 {
+    max-width: 300px;
+  }
+  .aboutMain .container .about .flexIMGs {
+    gap: 216px;
+  }
+  .aboutMain .container .about .flexIMGs .img .absoluteImg {
+    right: 210px;
+    top: 216px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .aboutMain .titleMain {
+    gap: 25px;
+  }
+  .aboutMain .titleMain h1 {
+    font-size: 16px;
+  }
+  .aboutMain .titleMain h2 {
+    font-size: 14px;
+    max-width: 375px;
+  }
+  .aboutMain .container .about .flexIMGs .img .absoluteImg {
+    right: 135px;
+  }
+}
+@media screen and (max-width: 785px) {
+  .aboutMain .container .about .flextext h1 {
+    font-size: 15px;
+    letter-spacing: 0.0em;
+  }
+  .aboutMain .container .about .flexIMGs .img img.absoluteImg {
+    right: 75px !important;
+  }
+}
+@media screen and (max-width: 730px) {
+  .aboutMain .container .mt54px {
+    margin-top: 70px;
+  }
+  .aboutMain .container .about .flextext {
+    margin-top: 0;
+  }
+  .aboutMain .container .about .flexIMGs {
+    gap: 265px;
+  }
+  .aboutMain .container .about .flexIMGs .img img.absoluteImg {
+    right: 0px !important;
+    top: 240px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .aboutMain .container .mt54px {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .aboutMain .container .mt54px {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .aboutMain .container .about .flextext h1 {
+    line-height: 29px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .aboutMain .titleMain h2 {
+    font-size: 12px;
+    max-width: 190px;
+  }
+  .aboutMain .container .about {
+    flex-direction: column-reverse;
+    margin-top: 40px;
+  }
+  .aboutMain .container .about .flexIMGs {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    justify-content: space-around;
+  }
+  .aboutMain .container .about .flexIMGs .img {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .aboutMain .container .about .flexIMGs .img img {
+    max-width: 250px;
+    position: initial !important;
+  }
+}
+@media screen and (max-width: 550px) {
+  .aboutMain .container .about .flexIMGs .img img {
+    max-width: 200px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .aboutMain .titleMain {
+    padding: 0 10px;
+    gap: 15px;
+  }
+  .aboutMain .titleMain h1 {
+    font-size: 13px;
+  }
+  .aboutMain .titleMain h2 {
+    line-height: 19px;
+  }
+  .aboutMain .container .about .flexIMGs .img {
+    gap: 10px;
+  }
+  .aboutMain .container .about .flexIMGs .img img {
+    max-width: 150px;
+    border-radius: 5px;
+  }
+}
+
+/*# sourceMappingURL=2option.css.map */
